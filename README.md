@@ -24,7 +24,7 @@ A simple command-line tool for converting between **percent slope**, **degrees**
    
    ```bash
    # download the script
-   curl -o slope https://github.com/huugof/slope-calculator-CLI/main/slope.py
+   curl -o slope.py https://raw.githubusercontent.com/huugof/slope-calculator-CLI/main/slope.py 
    ```
 
    or clone the repo:
@@ -52,7 +52,7 @@ A simple command-line tool for converting between **percent slope**, **degrees**
 
 ## Optional
 
-To make it easier to use `slope 3.5%`
+To make it easier to use and just type `slope 3.5%`
 
 1. **Make it Executable**
 
