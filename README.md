@@ -24,13 +24,13 @@ A simple command-line tool for converting between **percent slope**, **degrees**
    
    ```bash
    # download the script
-   curl -o slope https://raw.githubusercontent.com/<your-username>/<your-repo>/main/slope.py
+   curl -o slope https://github.com/huugof/slope-calculator-CLI/main/slope.py
    ```
 
    or clone the repo:
 
    ```bash
-   git clone https://github.com/<your-username>/<your-repo>.git
+   git clone https://github.com/huugof/slope-calculator-CLI.git
    cd <your-repo>
    ```
 
