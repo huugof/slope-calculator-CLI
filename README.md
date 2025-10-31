@@ -1,14 +1,14 @@
-# 🧮 Slope Converter CLI
+# Slope Converter CLI
 
 A simple command-line tool for converting between **percent slope**, **degrees**, and **rise:run ratios** — perfect for quick checks on walkways, patios, ramps, and site grading.
 
 ---
 
-## ✨ Features
+## Features
 
 - Converts between:
   - Percent slope (`5%`)
-  - Degrees (`10°`)
+  - Degrees (`10°` or `10deg`)
   - Ratio (`1:20` or `3/100`)
 - Detects input type automatically
 - Outputs all equivalents clearly
@@ -16,7 +16,7 @@ A simple command-line tool for converting between **percent slope**, **degrees**
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 1. **Download the script**
 
@@ -34,13 +34,33 @@ A simple command-line tool for converting between **percent slope**, **degrees**
    cd <your-repo>
    ```
 
-2. **Make it executable**
+2. **Use It**
+
+  ```bash
+  python3 slope.py 3.5%
+  ```
+
+  ✅ Example output:
+   ```
+   Input: 3.5%
+   → Slope: 3.500%
+   → Angle: 2.003°
+   → Ratio: 1:28.571
+   ```
+  
+---
+
+## Optional
+
+To make it easier to use `slope 3.5%`
+
+1. **Make it Executable**
 
    ```bash
    chmod +x slope.py
    ```
 
-3. **Move it into your PATH**
+2. **Move it into your PATH**
 
    ```bash
    sudo mv slope.py /usr/local/bin/slope
@@ -48,19 +68,25 @@ A simple command-line tool for converting between **percent slope**, **degrees**
 
    (You can use another directory like `~/bin` if you prefer — just make sure it’s in your `$PATH`.)
 
-4. **Test it**
+3. **Use it**
 
+  Now just type:
    ```bash
    slope 3.5%
    ```
+  from anywhere.
 
-   ✅ Example output:
-   ```
-   Input: 3.5%
-   → Slope: 3.500%
-   → Angle: 2.003°
-   → Ratio: 1:28.571
-   ```
+---
+
+## Syntax
+
+```bash
+slope 3.5%            //percentage
+slope 3° or 3deg      //degrees
+slope 1:12 or 1/12    //rise:run ratio
+```
+
+---  
 
 ## Troubleshooting
 
@@ -74,22 +100,3 @@ A simple command-line tool for converting between **percent slope**, **degrees**
   hash -r
   ```
 
----
-
-## Optional
-
-To remove the `.py` extension without renaming the command manually:
-```bash
-sudo mv slope.py /usr/local/bin/slope
-```
-
-Now just type:
-```bash
-slope 3.5%
-```
-from anywhere.
-
----
-
-**Author:** Hugo Fenaux  
-**License:** MIT  
