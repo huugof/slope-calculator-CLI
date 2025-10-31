@@ -36,11 +36,11 @@ A simple command-line tool for converting between **percent slope**, **degrees**
 
 2. **Use It**
 
-  ```bash
-  python3 slope.py 3.5%
-  ```
+   ```bash
+   python3 slope.py 3.5%
+   ```
 
-  ✅ Example output:
+   ✅ Example output:
    ```
    Input: 3.5%
    → Slope: 3.500%
@@ -81,9 +81,9 @@ To make it easier to use `slope 3.5%`
 ## Syntax
 
 ```bash
-slope 3.5%            //percentage
-slope 3° or 3deg      //degrees
-slope 1:12 or 1/12    //rise:run ratio
+$ slope 3.5%            //percentage
+$ slope 3° or 3deg      //degrees
+$ slope 1:12 or 1/12    //rise:run ratio
 ```
 
 ---  
