@@ -70,11 +70,11 @@ To make it easier to use `slope 3.5%`
 
 3. **Use it**
 
-  Now just type:
+   Now just type:
    ```bash
    slope 3.5%
    ```
-  from anywhere.
+   from anywhere.
 
 ---
 
