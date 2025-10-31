@@ -31,7 +31,7 @@ A simple command-line tool for converting between **percent slope**, **degrees**
 
    ```bash
    git clone https://github.com/huugof/slope-calculator-CLI.git
-   cd <your-repo>
+   cd slope-calculator-CLI.git
    ```
 
 2. **Use It**
